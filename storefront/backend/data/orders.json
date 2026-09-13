@@ -1,0 +1,364 @@
+{
+  "neezzDzOY-": {
+    "id": "neezzDzOY-",
+    "packageId": "standard",
+    "packageName": "Standard",
+    "amountUsd": 25,
+    "email": "",
+    "status": "paid",
+    "code": "ONEAPI-NHDP8588S4QC6R9Y29UL9SDFX",
+    "stripeSessionId": null,
+    "createdAt": "2026-08-07T16:06:34.676Z"
+  },
+  "x2ei-2J0Z_": {
+    "id": "x2ei-2J0Z_",
+    "packageId": "starter",
+    "packageName": "Starter",
+    "amountUsd": 10,
+    "email": "",
+    "status": "paid",
+    "code": "ONEAPI-J2E73L43M4GM286DQA4GSY8JW",
+    "stripeSessionId": null,
+    "createdAt": "2026-08-07T16:06:34.833Z"
+  },
+  "vwpk2zDwfW": {
+    "id": "vwpk2zDwfW",
+    "packageId": "esim",
+    "packageName": "eSIM Global Data",
+    "product": "esim",
+    "amountUsd": 15,
+    "email": "test@demo.com",
+    "status": "paid",
+    "code": "ESIM-095F9B0547BF8810893EE4E7",
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T11:28:28.765Z"
+  },
+  "5fEGu_qMvg": {
+    "id": "5fEGu_qMvg",
+    "packageId": "vpn",
+    "packageName": "VPN Pro Access",
+    "product": "vpn",
+    "amountUsd": 20,
+    "email": "test@demo.com",
+    "status": "paid",
+    "code": "VPN-C4FB72C1E574C550E7258098",
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T11:28:28.816Z"
+  },
+  "v8GoQ7Xx1D": {
+    "id": "v8GoQ7Xx1D",
+    "packageId": "standard",
+    "packageName": "Standard",
+    "product": "api",
+    "amountUsd": 25,
+    "email": "test@demo.com",
+    "status": "paid",
+    "code": "ONEAPI-42DCYSP9DH7EABWJX6PP9BF4X",
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T11:28:34.723Z"
+  },
+  "C8OY1A5Ajv": {
+    "id": "C8OY1A5Ajv",
+    "packageId": "standard",
+    "packageName": "Standard",
+    "product": "api",
+    "category": "token",
+    "amountUsd": 25,
+    "email": "",
+    "status": "paid",
+    "code": "ONEAPI-E8FJYADSNKTTNWQTN9X3WXYWK",
+    "fulfillment": {
+      "key": "ONEAPI-E8FJYADSNKTTNWQTN9X3WXYWK",
+      "provider": "oneapi"
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T14:48:58.358Z"
+  },
+  "xbRvpER2nh": {
+    "id": "xbRvpER2nh",
+    "packageId": "esim-global-10gb",
+    "packageName": "eSIM Global 10GB",
+    "product": "api",
+    "category": "esim",
+    "amountUsd": 15,
+    "email": "",
+    "status": "paid",
+    "code": "ESIM-C69187ECB15239B0D61B79C4",
+    "fulfillment": {
+      "code": "ESIM-C69187ECB15239B0D61B79C4",
+      "details": {
+        "iccid": "894418AC87BC566D27172843",
+        "activationCode": "LPA:1$smdp.example.net$DF1FB399B362-7D5C41D7828C",
+        "qr": "https://demo.example.net/esim/xbRvpER2.png",
+        "network": "NovaConnect Global"
+      },
+      "instructions": [
+        "Install the eSIM profile using activation code LPA:1$smdp.example.net$DF1FB399B362-7D5C41D7828C",
+        "Scan the QR delivered to your email, or enter the code manually",
+        "Your plan activates when the device connects in a covered country",
+        "Keep the eSIM as a secondary data line for roaming"
+      ],
+      "provider": "mock-esim"
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T14:48:58.659Z"
+  },
+  "d8x7DHMckJ": {
+    "id": "d8x7DHMckJ",
+    "packageId": "vpn-yearly",
+    "packageName": "VPN Pro 1-Year",
+    "product": "api",
+    "category": "vpn",
+    "amountUsd": 20,
+    "email": "",
+    "status": "paid",
+    "code": "VPN-C8E0F2CD5AE5FCBE6F3BB1C5",
+    "fulfillment": {
+      "code": "VPN-C8E0F2CD5AE5FCBE6F3BB1C5",
+      "details": {
+        "username": "nvp_d8x7dhmc",
+        "password": "768D13077C37C47E",
+        "configUrl": "https://demo.example.net/vpn/d8x7DHMc.ovpn",
+        "protocols": [
+          "OpenVPN",
+          "WireGuard"
+        ]
+      },
+      "instructions": [
+        "Download the app for your device and log in with the credentials above",
+        "Username: nvp_d8x7dhmc",
+        "Password: 768D13077C37C47E",
+        "Pick a server from 60+ locations and connect"
+      ],
+      "provider": "mock-vpn"
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T14:48:58.677Z"
+  },
+  "NXWKhLQ_pK": {
+    "id": "NXWKhLQ_pK",
+    "packageId": "esim-global-10gb",
+    "packageName": "Global 10GB",
+    "product": "api",
+    "category": "esim",
+    "planKey": "global-10gb",
+    "amountUsd": 12.3,
+    "email": "",
+    "status": "paid",
+    "code": "ESIM-86C2A36A327042435025EECE",
+    "fulfillment": {
+      "code": "ESIM-86C2A36A327042435025EECE",
+      "details": {
+        "iccid": "89446463EF80911976092922",
+        "activationCode": "LPA:1$smdp.demo-esim.net$DCAC15701989-3686EFD09364",
+        "qr": "https://demo.example.net/esim/NXWKhLQ_.png",
+        "network": "NovaConnect Global"
+      },
+      "instructions": [
+        "Install the eSIM profile using activation code LPA:1$smdp.demo-esim.net$DCAC15701989-3686EFD09364",
+        "Scan the QR delivered to your email, or enter the code manually",
+        "Your plan activates when the device connects in a covered country",
+        "Keep the eSIM as a secondary data line for roaming"
+      ],
+      "provider": "esimgo",
+      "providerLabel": "eSIMGo",
+      "sku": "esimgo-global-10gb",
+      "wholesale": 10.42,
+      "retail": 12.3,
+      "margin": 1.88
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:15:09.514Z"
+  },
+  "cQFN32MOPq": {
+    "id": "cQFN32MOPq",
+    "packageId": "vpn-yearly",
+    "packageName": "VPN Pro 1-Year",
+    "product": "api",
+    "category": "vpn",
+    "planKey": null,
+    "amountUsd": 20,
+    "email": "",
+    "status": "paid",
+    "code": "VPN-2902A9CA001FA2F06FE1AB0C",
+    "fulfillment": {
+      "code": "VPN-2902A9CA001FA2F06FE1AB0C",
+      "details": {
+        "username": "nvp_cqfn32mo",
+        "password": "10DD211D615E0BAC",
+        "endpoint": "146.56.10.20",
+        "port": 51820,
+        "region": "US East (Ashburn)",
+        "host": "Oracle Cloud Always Free",
+        "protocol": "WireGuard",
+        "configText": "[Interface]\nAddress = 10.66.66.207/32\nPrivateKey = YGz1k3T1sMAqzRzEoSneVU0TujLjJ9WifWWTrEfMYls=\nDNS = 1.1.1.1, 1.0.0.1\n\n[Peer]\nPublicKey = gq89L6zOl2DXVxGs3aKr9SMFPspGPIrIQK3GA2gDCHg=\nPresharedKey = KA1Rfc9E7CytA/kT8t45g/kBQrVgOCWBMGsWUH74z70=\nEndpoint = 146.56.10.20:51820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+      },
+      "instructions": [
+        "This VPN is self-hosted on an Oracle Cloud Always Free instance (US region)",
+        "Install WireGuard on your device (Windows, macOS, iOS, Android, Linux)",
+        "Create a new tunnel and paste the client configuration from your order",
+        "Connect and enjoy a US IP address with no monthly server cost"
+      ],
+      "provider": "demo"
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:15:09.568Z"
+  },
+  "vXUTnJG9nf": {
+    "id": "vXUTnJG9nf",
+    "packageId": "standard",
+    "packageName": "Standard",
+    "product": "api",
+    "category": "token",
+    "planKey": null,
+    "amountUsd": 25,
+    "email": "",
+    "status": "paid",
+    "code": "ONEAPI-Y5CUE75JFA5MEV5RAX8NYMEY7",
+    "fulfillment": {
+      "key": "ONEAPI-Y5CUE75JFA5MEV5RAX8NYMEY7",
+      "provider": "oneapi"
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:17:35.142Z"
+  },
+  "V1VqsIrDeH": {
+    "id": "V1VqsIrDeH",
+    "packageId": "esim-global-10gb",
+    "packageName": "Global 10GB",
+    "product": "api",
+    "category": "esim",
+    "planKey": "global-10gb",
+    "amountUsd": 12.3,
+    "email": "",
+    "status": "paid",
+    "code": "ESIM-91C3D923D69D01929873DF63",
+    "fulfillment": {
+      "code": "ESIM-91C3D923D69D01929873DF63",
+      "details": {
+        "iccid": "894415441A255DC1F8691661",
+        "activationCode": "LPA:1$smdp.demo-esim.net$A9D2A7124F3D-2521BB40CF6C",
+        "qr": "https://demo.example.net/esim/V1VqsIrD.png",
+        "network": "NovaConnect Global"
+      },
+      "instructions": [
+        "Install the eSIM profile using activation code LPA:1$smdp.demo-esim.net$A9D2A7124F3D-2521BB40CF6C",
+        "Scan the QR delivered to your email, or enter the code manually",
+        "Your plan activates when the device connects in a covered country",
+        "Keep the eSIM as a secondary data line for roaming"
+      ],
+      "provider": "esimgo",
+      "providerLabel": "eSIMGo",
+      "sku": "esimgo-global-10gb",
+      "wholesale": 10.42,
+      "retail": 12.3,
+      "margin": 1.88
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:18:15.236Z"
+  },
+  "wB2daFLm-c": {
+    "id": "wB2daFLm-c",
+    "packageId": "vpn-monthly",
+    "packageName": "VPN Pro Monthly",
+    "product": "api",
+    "category": "vpn",
+    "planKey": null,
+    "amountUsd": 4,
+    "email": "",
+    "status": "paid",
+    "code": "VPN-A6C18F454CABAAEF7A3BEDB8",
+    "fulfillment": {
+      "code": "VPN-A6C18F454CABAAEF7A3BEDB8",
+      "details": {
+        "username": "nvp_wb2daflm",
+        "password": "EA6EE0A6F4F39D90",
+        "endpoint": "146.56.10.20",
+        "port": 51820,
+        "region": "US East (Ashburn)",
+        "host": "Oracle Cloud Always Free",
+        "protocol": "WireGuard",
+        "configText": "[Interface]\nAddress = 10.66.66.78/32\nPrivateKey = eIxOPN1QCfFKGEx3VZ2c8Rn9+hBWN7YroKF0MTBPDVU=\nDNS = 1.1.1.1, 1.0.0.1\n\n[Peer]\nPublicKey = QAwUM50qRiARa7Rsmy/kjsRU+XxMGAjEjMrYzTQ0yDo=\nPresharedKey = 8gfAVPg2vhvpSbP6h71647nklc09Dq71sxWT1aojkWk=\nEndpoint = 146.56.10.20:51820\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+      },
+      "instructions": [
+        "This VPN is self-hosted on an Oracle Cloud Always Free instance (US region)",
+        "Install WireGuard on your device (Windows, macOS, iOS, Android, Linux)",
+        "Create a new tunnel and paste the client configuration from your order",
+        "Connect and enjoy a US IP address with no monthly server cost"
+      ],
+      "provider": "demo"
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:18:15.277Z"
+  },
+  "JIP3BunTeX": {
+    "id": "JIP3BunTeX",
+    "packageId": "esim-global-10gb",
+    "packageName": "Global 10GB",
+    "product": "api",
+    "category": "esim",
+    "planKey": "global-10gb",
+    "amountUsd": 12.3,
+    "email": "",
+    "status": "paid",
+    "code": "ESIM-47B7AC30CF089DBBAA50F258",
+    "fulfillment": {
+      "code": "ESIM-47B7AC30CF089DBBAA50F258",
+      "details": {
+        "iccid": "89447F79CCF4C65448394724",
+        "activationCode": "LPA:1$smdp.demo-esim.net$AFB2FB2EE042-65A7684E2272",
+        "qr": "https://demo.example.net/esim/JIP3BunT.png",
+        "network": "NovaConnect Global"
+      },
+      "instructions": [
+        "Install the eSIM profile using activation code LPA:1$smdp.demo-esim.net$AFB2FB2EE042-65A7684E2272",
+        "Scan the QR delivered to your email, or enter the code manually",
+        "Your plan activates when the device connects in a covered country",
+        "Keep the eSIM as a secondary data line for roaming"
+      ],
+      "provider": "esimgo",
+      "providerLabel": "eSIMGo",
+      "sku": "esimgo-global-10gb",
+      "wholesale": 10.42,
+      "retail": 12.3,
+      "margin": 1.88
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:18:15.318Z"
+  },
+  "l7dpEggyia": {
+    "id": "l7dpEggyia",
+    "packageId": "esim-us-unlimited",
+    "packageName": "Unlimited USA",
+    "product": "api",
+    "category": "esim",
+    "planKey": "us-unlimited",
+    "amountUsd": 23.05,
+    "email": "",
+    "status": "paid",
+    "code": "ESIM-625F20313B72738D28DF55AD",
+    "fulfillment": {
+      "code": "ESIM-625F20313B72738D28DF55AD",
+      "details": {
+        "iccid": "894454DD29E48C0107957927",
+        "activationCode": "LPA:1$smdp.demo-esim.net$B2FE146A70BF-AD9EE5D7934D",
+        "qr": "https://demo.example.net/esim/l7dpEggy.png",
+        "network": "NovaConnect Global"
+      },
+      "instructions": [
+        "Install the eSIM profile using activation code LPA:1$smdp.demo-esim.net$B2FE146A70BF-AD9EE5D7934D",
+        "Scan the QR delivered to your email, or enter the code manually",
+        "Your plan activates when the device connects in a covered country",
+        "Keep the eSIM as a secondary data line for roaming"
+      ],
+      "provider": "esimgo",
+      "providerLabel": "eSIMGo",
+      "sku": "esimgo-us-unlimited",
+      "wholesale": 19.53,
+      "retail": 23.05,
+      "margin": 3.52
+    },
+    "stripeSessionId": null,
+    "createdAt": "2026-08-09T15:39:07.737Z"
+  }
+}

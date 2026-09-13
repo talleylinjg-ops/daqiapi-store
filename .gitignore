@@ -174,3 +174,15 @@
 *.lz
 *.lzma
 *.iso
+
+# Cloudflare / Wrangler local state
+.wrangler/
+**/.wrangler/
+
+# SQLite runtime artifacts
+**/*.db-wal
+**/*.db-shm
+
+# Local deployment output
+**/cf-out/
+

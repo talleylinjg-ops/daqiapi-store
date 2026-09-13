@@ -1,0 +1,19 @@
+name = "daqiapi-shop"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+# D1 database for orders.
+[[d1_databases]]
+binding = "DB"
+database_name = "daqiapi-db"
+database_id = "6b2887db-f10c-4209-8899-e8eb6571a841"
+
+# Base URL of the static catalog JSON on Pages.
+[vars]
+CATALOG_BASE = "https://daqiapi-store.pages.dev/api"
+DEMO_MODE = "true"
+
+[env.production]
+workers_dev = false
+route = "shop.daqi.asia/*"
